@@ -1,0 +1,52 @@
+.banner-wrapper{
+	background-position-x:right;
+	background-size: contain;
+	background-repeat: repeat-x;
+
+	position: relative;
+}
+
+.banner-canvas-part{
+	height: 380px;
+	margin-left: -20%;
+	position: absolute;
+    top: 0;
+    /*bottom: 0;*/
+    width: 80%;
+    background: linear-gradient(to right, #48cfad 5%, #3bafda 90%);
+    transform: skewX(-30deg);
+}
+
+.banner-canvas-all{
+	height: 380px;
+	margin-left: 0%;
+	position: absolute;
+    top: 0;
+    /*bottom: 0;*/
+    width: 100%;
+    background: linear-gradient(to right, #48cfad 5%, #3bafda 90%);
+    /*transform: skewX(-30deg);*/
+}
+
+
+/* left text */
+.banner-text-wrapper{
+	position: relative;
+	height: 100%;
+	text-align: left;
+}
+
+.banner-text{
+	margin-top:80px;
+	padding-left: 100px;
+	padding-top: 30px;
+	display: block;
+}
+
+.banner-text h1{
+	font-size: 48px;
+}
+
+.banner-text h2{
+	font-size: 30px;
+}
